@@ -225,6 +225,10 @@ GEM
     sqlite3 (1.6.0)
       mini_portile2 (~> 2.8.0)
     sqlite3 (1.6.0-arm64-darwin)
+    tailwindcss-rails (2.0.21)
+      railties (>= 6.0.0)
+    tailwindcss-rails (2.0.21-arm64-darwin)
+      railties (>= 6.0.0)
     temple (0.8.2)
     thor (1.2.1)
     tilt (2.0.11)
@@ -275,6 +279,7 @@ DEPENDENCIES
   sorcery
   spring
   sqlite3 (~> 1.4)
+  tailwindcss-rails
   turbolinks (~> 5)
   tzinfo-data
   web-console (>= 4.1.0)
