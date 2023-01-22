@@ -1,0 +1,12 @@
+header 
+  nav
+    = link_to root_path do
+      = image_tag 'logo.png'
+      .links 
+        ul 
+          li
+            = link_to 'アプリについて', '#'
+          li
+            = link_to 'マイページ', '#'
+          li
+            = link_to 'ログイン', login_path
