@@ -2,7 +2,6 @@ header
   nav
     = link_to root_path do
       = image_tag 'logo.png'
-
       .links 
         ul 
           li
@@ -10,4 +9,4 @@ header
           li
             = link_to 'マイページ', '#'
           li
-            = link_to 'ログアウト', logout_path, method: :delete
+            = link_to 'ログイン', login_path
